@@ -1,6 +1,6 @@
-# tdups2checksum
+# Test Drive Unlimited (PS2) Save Game Checksum
 
-Test Drive Unlimited (PS2) uses a checksum for its save games, storing it in the first 4 bytes of the file. As a part of trying to recover a corrupted save, I reverse-engineered this checksum algorithm and reimplemented it in C. While it didn't end up being useful in my situation, I figured I would post the algorithm regardless.
+Test Drive Unlimited uses a checksum for its save games, storing it in the first 4 bytes of the file. As a part of trying to recover a corrupted save, I reverse-engineered this checksum algorithm and reimplemented it in C. While it didn't end up being useful in my situation, I figured I would post the algorithm regardless.
 
 ## How to use
 
